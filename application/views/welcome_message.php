@@ -1,8 +1,24 @@
-<div class="eight columns">
-    <h1>آسان چاپ</h1>
-    <h2>تهیه و چاپ هوشمند انواع کارت شناسایی، فرم، لیست، نامه رسمی و ....</h2>
-    <p> این محصول این امکان را برای شما فراهم می آورد که بر روی قالب های تصویری خود، مکان های مشخصی را برای چاپ اطلاعات مشخص کنید، سپس با تنظیم سطر و ستون اطلاعات از یک فایل excel به سادگی میتوانید به تعداد دلخواه، اطلاعات را از فایل excel انتخاب کنید و در مکان ها مشخص چاپ کنید و خروجی خود را در سریعترین زمان ممکن دریافت نمایید.
-        <span class="action"><a href="<?php echo URL."registerproduct/index"?>"><button type="button"><strong>خرید</strong> محصول</button></a> <span class="or">یا</span> <a href="<?php echo URL."help/index"?>"><button type="button" class="learn-more">بیشتر آشنا شوید</button></a></span>
-</div>
-		
-	
+<?php
+/**
+ * Created by PhpStorm.
+ * User: MohammadSadjad
+ * Date: 6/3/14
+ * Time: 8:30 AM
+ *
+ * Description:
+ * in this view, the welcome page must be shown
+ * contains:
+ * 1. download product
+ * 2. price plans
+ * 3. the login status:
+ *     3.1 if the user is logged in
+ *         3.1.1 say hello user
+ *         3.1.2 link them to the dashboard controller
+ *         3.1.3 by clicking the product plans, the user is directed to the factor settings controller
+ *         3.2 if the user is not logged in
+ *         3.2.1 say please login
+ *         3.2.2 link them to the login controller
+ *         3.2.3 have a link for registration controller
+ *         3.2.4 the price plans are off
+*/
+?>
