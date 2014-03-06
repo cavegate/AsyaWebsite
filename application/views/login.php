@@ -9,11 +9,9 @@
  * Description:
  * In this view the login page must be shown
  * Containing:
- * 1. A form with the fields that are necessary:
- *      1.1. the first name of the user
- *      1.2. the last name of the user
- *      1.3. contact number of the user
- *      1.4. the email of the user
- *      1.5. the security code
- *      1.6. the submit button
+ * 1. A form with the following fields that are necessary:
+ *      1.1. the username
+ *      1.2. the password
+ *      1.3. captcha that is shown if needed
+ *      1.4. the submit button
  */
