@@ -1,7 +1,6 @@
 <?php if ( ! defined('BASEPATH')) exit('No direct script access allowed');
 
 class Welcome extends CI_Controller {
-
 	/**
 	 * Index Page for this controller.
 	 *
@@ -19,10 +18,46 @@ class Welcome extends CI_Controller {
 	 */
 	public function index()
 	{
+        $user_name = $this->checkLogin();
         $this->load->helper('url');
-        $this->load->view("header",array("title" => "salam"));
-		$this->load->view('welcome_message');
+        $this->load->view("header",array
+        (
+                "title" => "Asanchap khane", //TODO: Must change persian
+                "username" => $user_name
+         ));
+        $this->load->library('form_validation');
+        $this->form_validation->set_rules(array(
+           array(
+               'field' => 'number_of_licence',
+               'label' => 'tedade licenceha', //TODO: Must change persian
+               'rules' => 'required|is_numeric'
+           )
+        ));
+        $this->form_validation->set_error_delimiters('<div class="alert alert-error">','</div>');
+        if(!$this->form_validation->run() || !$user_name)
+        {
+            $this->load->view('welcome_message');
+        }
+        else
+        {
+            $this->load->model('');
+        }
 	}
+
+    /**
+     * this function checks whether a user is logged in or not
+     * @return string(the name of the user) or FALSE(not logged in)
+     */
+    public function checkLogin()
+    {
+        $this->load->library('session');
+        return $this->session->userdata('username');
+    }
+
+    public function calculatePrice()
+    {
+
+    }
 }
 
 /* End of file welcome.php */
