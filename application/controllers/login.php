@@ -14,9 +14,8 @@ class Login extends CI_Controller {
      * the index function that is called by default by the codeigniter when the login controller is accessed
      */
     function index(){
-        $this->load->view("header");
-        $this->load->view("welcome_message");
-        $this->load->view("footer");
+        $this->load->helper("url");
+        $this->load->view("login");
 
     }
 }
