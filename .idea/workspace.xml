@@ -2,9 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a98f219d-fd11-44dd-9441-ef7bc72e16ee" name="Default" comment="view">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/controllers/login.php" afterPath="$PROJECT_DIR$/application/controllers/login.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/views/login.php" afterPath="$PROJECT_DIR$/application/views/login.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/application/language/persian/website_lang.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/config/autoload.php" afterPath="$PROJECT_DIR$/application/config/autoload.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/config/database.php" afterPath="$PROJECT_DIR$/application/config/database.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/controllers/welcome.php" afterPath="$PROJECT_DIR$/application/controllers/welcome.php" />
     </list>
     <ignored path="AsyaWebsite.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -30,7 +31,7 @@
       <file leaf-file-name="welcome.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/application/controllers/welcome.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="23" column="45" selection-start="779" selection-end="779" vertical-scroll-proportion="-15.038462" vertical-offset="0" max-vertical-offset="578">
+            <state line="23" column="9" selection-start="768" selection-end="768" vertical-scroll-proportion="0.0" vertical-offset="391" max-vertical-offset="1173">
               <folding />
             </state>
           </provider>
@@ -39,7 +40,7 @@
       <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/application/controllers/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="255">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="255">
               <folding />
             </state>
           </provider>
@@ -48,7 +49,7 @@
       <file leaf-file-name="acitve_email.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/application/views/acitve_email.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="323">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="323">
               <folding />
             </state>
           </provider>
@@ -57,7 +58,7 @@
       <file leaf-file-name="header.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/application/views/header.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="22" column="7" selection-start="809" selection-end="809" vertical-scroll-proportion="-11.115385" vertical-offset="0" max-vertical-offset="391">
+            <state line="22" column="7" selection-start="809" selection-end="809" vertical-scroll-proportion="0.0" vertical-offset="374" max-vertical-offset="476">
               <folding />
             </state>
           </provider>
@@ -66,11 +67,9 @@
       <file leaf-file-name="login.php" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/application/views/login.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="43" column="0" selection-start="1242" selection-end="1242" vertical-scroll-proportion="0.47976878" vertical-offset="399" max-vertical-offset="1292">
+            <state line="43" column="0" selection-start="1242" selection-end="1242" vertical-scroll-proportion="0.18930636" vertical-offset="600" max-vertical-offset="1292">
               <folding>
                 <element signature="e#6#363#0" expanded="true" />
-                <element signature="n#style#0;n#input#0;n#form#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#input#1;n#form#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -79,7 +78,7 @@
       <file leaf-file-name="login.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/application/controllers/login.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="16" column="35" selection-start="491" selection-end="491" vertical-scroll-proportion="-6.5384617" vertical-offset="0" max-vertical-offset="340">
+            <state line="16" column="35" selection-start="491" selection-end="491" vertical-scroll-proportion="0.0" vertical-offset="272" max-vertical-offset="442">
               <folding />
             </state>
           </provider>
@@ -157,7 +156,6 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -242,6 +240,7 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -250,8 +249,8 @@
     <property name="options.lastSelected" value="reference.settingsdialog.IDE.editor.colors" />
     <property name="last_opened_file_path" value="$USER_HOME$/Documents/BootStrap/fullscreen-login" />
     <property name="FullScreen" value="false" />
-    <property name="options.splitter.details.proportions" value="0.2" />
     <property name="options.searchVisible" value="true" />
+    <property name="options.splitter.details.proportions" value="0.2" />
   </component>
   <component name="RunManager">
     <configuration default="true" type="PHPUnitRunConfigurationType" factoryName="PHPUnit">
@@ -353,9 +352,9 @@
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.249375" sideWeight="0.6710311" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout-to-restore>
   </component>
   <component name="VcsContentAnnotationSettings">
@@ -438,21 +437,21 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/application/views/header.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="22" column="7" selection-start="809" selection-end="809" vertical-scroll-proportion="-11.115385" vertical-offset="0" max-vertical-offset="391">
+        <state line="22" column="7" selection-start="809" selection-end="809" vertical-scroll-proportion="0.0" vertical-offset="374" max-vertical-offset="476">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/application/controllers/welcome.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="23" column="45" selection-start="779" selection-end="779" vertical-scroll-proportion="-15.038462" vertical-offset="0" max-vertical-offset="578">
+        <state line="23" column="9" selection-start="768" selection-end="768" vertical-scroll-proportion="0.0" vertical-offset="391" max-vertical-offset="1173">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/application/controllers/login.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="35" selection-start="491" selection-end="491" vertical-scroll-proportion="-6.5384617" vertical-offset="0" max-vertical-offset="340">
+        <state line="16" column="35" selection-start="491" selection-end="491" vertical-scroll-proportion="0.0" vertical-offset="272" max-vertical-offset="442">
           <folding />
         </state>
       </provider>
@@ -466,11 +465,9 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/application/views/login.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="43" column="0" selection-start="1242" selection-end="1242" vertical-scroll-proportion="0.47976878" vertical-offset="399" max-vertical-offset="1292">
+        <state line="43" column="0" selection-start="1242" selection-end="1242" vertical-scroll-proportion="0.18930636" vertical-offset="600" max-vertical-offset="1292">
           <folding>
             <element signature="e#6#363#0" expanded="true" />
-            <element signature="n#style#0;n#input#0;n#form#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#input#1;n#form#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
         </state>
       </provider>
