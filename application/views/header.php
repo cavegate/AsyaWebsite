@@ -57,15 +57,15 @@
                   {?>
             <div class="col-lg-offset-8 col-lg-1 col-md-offset-10 col-md-1 col-sm-offset-8 col-sm-1 col-xs-offset-8 col-xs-1">
                 <span class="pull-right">
-                    <a href="<?php echo base_url();?>index.php/register">
-                        <button id="btnheader1"class="btn btn-default"><?php echo $header_register;?></button>
+                    <a href="<?php echo base_url();?>index.php/register" >
+                        <button id="btnheader1"class="btn btn-default" style="margin-top: 8px"><?php echo $header_register;?></button>
                     </a>
                 </span>
             </div>
             <div class="col-lg-1 col-md-1 col-sm-1 col-xs-1">
                 <span class="pull-left">
-                    <a href="<?php echo base_url();?>index.php/login">
-                        <button id="btnheader2" class="btn btn-default"><?php echo $header_login;?></button>
+                    <a href="<?php echo base_url();?>index.php/login" >
+                        <button id="btnheader2" class="btn btn-default" style="margin-top: 8px"><?php echo $header_login;?></button>
                     </a>
                 </span>
             </div>

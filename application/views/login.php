@@ -17,7 +17,7 @@
  */
 ?>
 <!DOCTYPE html>
-<html lang="en" class="no-js">
+<html lang="en" class="no-js" >
 
     <head>
 
@@ -28,30 +28,27 @@
         <meta name="author" content="">
 
         <!-- CSS -->
-        <link rel='stylesheet' href='http://fonts.googleapis.com/css?family=PT+Sans:400,700'>
+        <!--
+        <link rel='stylesheet' href='http://fonts.googleapis.com/css?family=PT+Sans:400,700'>-->
         <link rel="stylesheet" href="<?php echo base_url(); ?>css/supersized.css">
         <link rel="stylesheet" href="<?php echo base_url(); ?>css/style.css">
-        <link rel="stylesheet" href="<?php echo base_url();?>css/base.css">
+        <!--<link rel="stylesheet" href="<?php echo base_url();?>css/base.css">-->
         <link rel="stylesheet" href="<?php echo base_url(); ?>css/reset.css">
 
-        <!-- HTML5 shim, for IE6-8 support of HTML5 elements -->
-        <!--[if lt IE 9]>
-            <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
-        <![endif]-->
 
     </head>
 
-    <body>
+    <body style="background: url(<?php echo base_url(); ?>img/page-bg2.jpg)">
 
         <div class="page-container">
-            <h1>ورود</h1>
+            <h2 style="margin-right: 55%">ورود</h2>
             <form action="" method="post">
                 <input type="text" name="username" style="text-align:center;" class="username"  placeholder="نام کاربری">
                 <input type="password" name="password" style="text-align:center;" class="password" placeholder="نام عبور">
                 <button type="submit">وارد شدن</button>
                 <div class="error"><span>+</span></div>
             </form>
-            <div class="connect">
+            <div class="connect" style=" margin-right: 65%">
                 <p>ثبت نام کنید</p>
                 <p>
                     <a class="facebook" href=""></a>
