@@ -31,6 +31,7 @@
         <link rel='stylesheet' href='http://fonts.googleapis.com/css?family=PT+Sans:400,700'>
         <link rel="stylesheet" href="<?php echo base_url(); ?>css/supersized.css">
         <link rel="stylesheet" href="<?php echo base_url(); ?>css/style.css">
+        <link rel="stylesheet" href="<?php echo base_url();?>css/base.css">
         <link rel="stylesheet" href="<?php echo base_url(); ?>css/reset.css">
 
         <!-- HTML5 shim, for IE6-8 support of HTML5 elements -->
