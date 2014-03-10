@@ -38,17 +38,16 @@
 
     </head>
 
-    <body style="background: url(<?php echo base_url(); ?>img/page-bg2.jpg)">
-
-        <div class="page-container">
-            <h2 style="margin-right: 55%">ورود</h2>
+    <body style="background: url(<?php echo base_url(); ?>img/page-bg3.jpg); background-repeat: repeat-y; background-size: 1380px ">
+        <div class="page-container" >
             <form action="" method="post">
+                <div><h1 style="">ورود</h1></div>
                 <input type="text" name="username" style="text-align:center;" class="username"  placeholder="نام کاربری">
                 <input type="password" name="password" style="text-align:center;" class="password" placeholder="نام عبور">
                 <button type="submit">وارد شدن</button>
                 <div class="error"><span>+</span></div>
             </form>
-            <div class="connect" style=" margin-right: 65%">
+            <div class="connect" style="padding-right: 50% ; padding-left: 0px; margin-left: 0px;">
                 <p>ثبت نام کنید</p>
                 <p>
                     <a class="facebook" href=""></a>

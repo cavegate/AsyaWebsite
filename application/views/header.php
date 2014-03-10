@@ -51,7 +51,7 @@
   	    <script src="<?php echo base_url();?>js/jquery.prettyPhoto.js"></script>
   	    <script src="<?php echo base_url();?>js/jquery.custom.js"></script>
     </head>
-    <body dir="rtl" style="background: #1c120f url('<?php echo base_url();?>img/page-bg.jpg') no-repeat top center;">
+    <body dir="rtl" style="background: #1c120f url('<?php echo base_url();?>img/page-bg3.jpg') repeat top center;">
         <nav class="navbar nav navbar-inverse" role="navigation">
             <?php if($user_name == FALSE)
                   {?>

@@ -71,6 +71,7 @@ class Welcome extends CI_Controller
         if(!$this->form_validation->run() || !$user_id)
         {
             $this->load->view('welcome_page');
+            $this->load->view("pack");
             $this->load->view('footer');
         }
         else
