@@ -24,6 +24,7 @@
 <!--[if IE 7 ]><html class="ie ie7" lang="en"> <![endif]-->
 <!--[if IE 8 ]><html class="ie ie8" lang="en"> <![endif]-->
 <!--[if (gte IE 9)|!(IE)]><!--><html lang="en"> <!--<![endif]-->
+<html>
     <head>
         <meta charset="utf-8">
         <title><?php echo $title; ?></title>
@@ -47,12 +48,18 @@
 	    <link rel="shortcut icon" href="<?php echo base_url();?>img/favicon.ico">
 	    <link rel="apple-touch-icon" sizes="114x114" href="<?php echo base_url();?>img/apple-touch-icon-114x114.png">
 
+
   	    <script src="http://code.jquery.com/jquery-latest.js"></script>
   	    <script src="<?php echo base_url();?>js/jquery.prettyPhoto.js"></script>
   	    <script src="<?php echo base_url();?>js/jquery.custom.js"></script>
+        <script src="<?php echo base_url();?>js/jquery-1.8.2.min.js"></script>
+
+        <script src="<?php echo base_url();?>js/price.js"></script>
+
+
     </head>
-    <body dir="rtl" style="background: #1c120f url('<?php echo base_url();?>img/page-bg3.jpg') repeat top center;">
-        <nav class="navbar nav navbar-inverse" role="navigation">
+    <body dir="rtl" style="background: #1c120f url('<?php echo base_url();?>img/page-bg3.jpg') repeat top center;" >
+        <nav class="navbar nav navbar-inverse" role="navigation" style="margin-top: 20px ; margin-right: 20px ; margin-left: 20px;">
             <?php if($user_name == FALSE)
                   {?>
             <div class="col-lg-offset-8 col-lg-1 col-md-offset-10 col-md-1 col-sm-offset-8 col-sm-1 col-xs-offset-8 col-xs-1">
