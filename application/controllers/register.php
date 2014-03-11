@@ -7,7 +7,7 @@
  */
 if ( ! defined('BASEPATH')) exit('No direct script access allowed');
 
-class Login extends CI_Controller {
+class Register extends CI_Controller {
     /**
      * the index function that is called by default by the codeigniter when the login controller is accessed
      */
