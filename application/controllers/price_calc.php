@@ -5,7 +5,7 @@
  * Date: 3/11/14
  * Time: 11:56 AM
  */
-$str = $_REQUEST['p'];
+$str = $_GET['p'];
 $pr = array(65000,45500,32500,26000,19500);
 if($str<2)
     echo $pr[0]*$str;

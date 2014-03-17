@@ -36,6 +36,12 @@
     <link rel="stylesheet" href="<?php echo base_url(); ?>css/supersized.css">
     <link rel="stylesheet" href="<?php echo base_url(); ?>css/style.css">
 
+    <!-- Javascript -->
+    <script src="<?php echo base_url(); ?>js/jquery-1.8.2.min.js"></script>
+    <script src="<?php echo base_url(); ?>js/supersized.3.2.7.min.js"></script>
+    <script src="<?php echo base_url(); ?>js/supersized-init.js"></script>
+    <script src="<?php echo base_url(); ?>js/regScripts.js"></script>
+
     <!-- HTML5 shim, for IE6-8 support of HTML5 elements -->
     <!--[if lt IE 9]>
     <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
@@ -43,7 +49,7 @@
 
 </head>
 
-<body style="background: url(<?php echo base_url(); ?>img/page-bg3.jpg); background-repeat: repeat-y; background-size: 1380px">
+<body style="background: url(<?php echo base_url(); ?>img/page-bg3.jpg); background-repeat: repeat-y; background-size: 100%">
 
 <div class="page-container" style="margin-right: 60%">
     <form action="" method="post">
@@ -62,16 +68,10 @@
     <div class="connect">
         <p>وارد شوید</p>
         <p>
-            <a class="twitter" href=""></a>
+            <a class="twitter" href="<?php echo base_url(); ?>index.php/login"></a>
         </p>
     </div>
 </div>
-
-<!-- Javascript -->
-<script src="<?php echo base_url(); ?>js/jquery-1.8.2.min.js"></script>
-<script src="<?php echo base_url(); ?>js/supersized.3.2.7.min.js"></script>
-<script src="<?php echo base_url(); ?>js/supersized-init.js"></script>
-<script src="<?php echo base_url(); ?>js/regScripts.js"></script>
 
 </body>
 

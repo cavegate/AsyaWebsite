@@ -43,7 +43,9 @@ class Welcome extends CI_Controller
             "welcome_button_learnmore" => $this->lang->line("welcome_button_learnmore"),
             "header_meta_description" => $this->lang->line("header_meta_description"),
             "header_login" => $this->lang->line("header_login"),
-            "header_register" => $this->lang->line("header_register")
+            "header_register" => $this->lang->line("header_register"),
+            "product_m" => $this->lang->line("product_m"),
+            "product_price" => $this->lang->line("product_price")
         );
         $user = null;
         if($user_id != false)

@@ -53,8 +53,12 @@
 
 <div class="row center-block" style="width:465px; height: 240px; border:5px solid orange; padding: 2px 2px 2px 2px">
     <p class="alert alert-info center-block" style="width:448px; height: 45px;text-align: center; padding-top: 10px">محاسبه قيمت پکيج ها</p>
-    <label>تعداد پکيج</label>
-    <input type="text" onkeyup="getCat(this.value)">
-    <p><label>قيمت پکيج</label> <span id="ajaxresult"></span></p>
+    <!-- <form class="form-inline" role="form"> -->
+    <div>
+        <?php echo $product_m; ?><input type="text" name="package" oninput="showP()">
+        <?php echo $product_price; ?><label id="price"> 0</label>
+        <button type="submit" class="btn btn-default" > خرید</button>
+    </div>
+    <!-- </form> -->
 </div>
 

@@ -38,7 +38,7 @@
 
     </head>
 
-    <body style="background: url(<?php echo base_url(); ?>img/page-bg3.jpg); background-repeat: repeat-y; background-size: 1380px ">
+    <body style="background: url(<?php echo base_url(); ?>img/page-bg3.jpg); background-repeat: repeat-y; background-size: 100% ">
         <div class="page-container" >
             <form action="" method="post">
                 <div><h1 style="">ورود</h1></div>
@@ -50,7 +50,7 @@
             <div class="connect" style="padding-right: 50% ; padding-left: 0px; margin-left: 0px;">
                 <p>ثبت نام کنید</p>
                 <p>
-                    <a class="facebook" href=""></a>
+                    <a class="facebook" href="<?php echo base_url()?>index.php/register"></a>
                 </p>
             </div>
         </div>

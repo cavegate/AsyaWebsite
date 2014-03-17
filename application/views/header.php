@@ -53,7 +53,6 @@
   	    <script src="<?php echo base_url();?>js/jquery.prettyPhoto.js"></script>
   	    <script src="<?php echo base_url();?>js/jquery.custom.js"></script>
         <script src="<?php echo base_url();?>js/jquery-1.8.2.min.js"></script>
-
         <script src="<?php echo base_url();?>js/price.js"></script>
 
 

@@ -20,3 +20,5 @@ $lang["help_title"] = "آسان چاپ - اطلاعات";
 $lang["header_meta_description"] = "چاپ هوشمند انواع کارت شناسایی، فرم، لیست، نامه رسمی و ....";
 $lang["header_register"] = "ثبت نام";
 $lang["header_login"] = "ورود";
+$lang["product_m"] = "تعداد محصول :";
+$lang["product_price"] = "قيمت محصول :";
